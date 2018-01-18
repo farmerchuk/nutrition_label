@@ -1,0 +1,145 @@
+* {
+  font: inherit;
+  text-align: inherit;
+  padding: 2px 0;
+  margin: 0;
+}
+
+html {
+  font: normal 28px Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+main {
+  width: 684px;
+  margin: 20px auto;
+  border: 3px solid black;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 900;
+  text-align: right;
+}
+
+h3 {
+  font-size: 0.8rem;
+}
+
+strong {
+  font-weight: 900;
+}
+
+small {
+  font-size: 0.9rem;
+}
+
+tr,
+section:nth-of-type(3) div.row:nth-child(8),
+section:nth-of-type(6) thead {
+  border-bottom: 2px solid black;
+}
+
+section:nth-of-type(1),
+section:nth-of-type(3) {
+  border-bottom: 30px solid black;
+}
+
+dl::after {
+  clear: both;
+}
+
+dt,
+dd {
+  display: inline-block;
+}
+
+dd:nth-of-type(2) {
+  float: right;
+  font-weight: 900;
+}
+
+dl:first-of-type dd:last-of-type {
+  font-weight: normal;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+section:nth-of-type(4) td:nth-of-type(2) {
+  text-align: right;
+}
+
+.row {
+  border-top: 2px solid black;
+}
+
+section:nth-of-type(1) {
+  margin-bottom: 8px;
+}
+
+section:nth-of-type(2) {
+  border-bottom: 14px solid black;
+}
+
+section:nth-of-type(3) div.row:nth-child(2),
+section:nth-of-type(3) div.row:nth-child(3),
+section:nth-of-type(3) div.row:nth-child(7),
+section:nth-of-type(3) div.row:nth-child(8) {
+  margin-left: 38px;
+}
+
+section:nth-of-type(3) div.row:nth-child(7) {
+  margin-left: 0;
+  padding-left: 38px;
+}
+
+section:nth-of-type(3) div.row:nth-child(9) {
+  border: none;
+}
+
+section:nth-of-type(5) {
+  padding-top: 10px;
+}
+
+section:nth-of-type(5) > p:nth-of-type(1) {
+  padding-left: 15px;
+}
+
+section:nth-of-type(5) > p:nth-of-type(1)::before {
+  content: "*";
+  margin-left: -15px;
+  padding-right: 0;
+  margin-right: -3px;
+}
+
+section:nth-of-type(6) {
+  font-size: 0.9rem;
+}
+
+section:nth-of-type(6) tr {
+  border-bottom: none;
+}
+
+section:nth-of-type(6) tbody th {
+  width: 43%;
+}
+
+section:nth-of-type(6) tbody td:first-of-type,
+section:nth-of-type(6) tbody td:nth-of-type(2) {
+  width: 22%;
+}
+
+section:nth-of-type(6) tbody tr:nth-of-type(2) th,
+section:nth-of-type(6) tbody tr:nth-of-type(6) th {
+  text-indent: 38px;
+}
